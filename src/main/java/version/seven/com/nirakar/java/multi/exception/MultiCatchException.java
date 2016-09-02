@@ -16,7 +16,8 @@ public class MultiCatchException {
 		try {
 			int movieArray[] = new int[5];
 			movieArray[5] = Integer.parseInt("HXBX");
-		} catch (ArithmeticException | ArrayIndexOutOfBoundsException | NumberFormatException  e) {
+		} catch (ArithmeticException | ArrayIndexOutOfBoundsException
+				| NumberFormatException e) {
 			System.out.println("You are so fool to assign a movie name ...");
 		}
 
@@ -28,7 +29,7 @@ public class MultiCatchException {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		MultiCatchException multiCatchException= new MultiCatchException();
+		MultiCatchException multiCatchException = new MultiCatchException();
 		multiCatchException.getMovieDetails();
 
 	}

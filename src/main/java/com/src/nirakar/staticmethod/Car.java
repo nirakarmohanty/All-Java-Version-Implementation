@@ -9,7 +9,7 @@ public interface Car {
 	
 	String getCarName(String name);
 	
-	static default void cleanBody() {
+	static void cleanBody() {
 		System.out.println("Clena car body");
 	}
 	static void checkAirPressure() {

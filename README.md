@@ -1,2 +1,2 @@
-# All-Java-Version-Implementation
-This project contains all type of JDK implementation.
+# Java8-Version-Features
+This project contains all Java 8 features implementation .

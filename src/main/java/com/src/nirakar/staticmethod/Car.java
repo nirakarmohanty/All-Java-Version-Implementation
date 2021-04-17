@@ -15,4 +15,6 @@ public interface Car {
 	static void checkAirPressure() {
 		System.out.println("check Air Pressure of all wheels");
 	}
+	
+	
 }
